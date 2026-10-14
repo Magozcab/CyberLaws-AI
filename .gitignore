@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Hugging Face checkpoints
+checkpoint-*/
+lora_ckpt/
+lora_v2_ckpt/
+
+# Large model weights (LoRA adapters contain large binaries; regenerate via train_lora_v2.py)
+*.bin
+*.safetensors
+qwen-cyberlaws-lora/
+qwen-cyberlaws-lora-v2/
+
+# Logs (keep .md reports and .json results)
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,26 @@
+{
+  "total": 5,
+  "passed": 5,
+  "results": [
+    [
+      "legit_listar",
+      true
+    ],
+    [
+      "legit_exec",
+      true
+    ],
+    [
+      "malicious_rmrf",
+      true
+    ],
+    [
+      "malicious_blocked",
+      true
+    ],
+    [
+      "obfuscated_b64",
+      true
+    ]
+  ]
+}

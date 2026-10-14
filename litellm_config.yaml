@@ -1,0 +1,17 @@
+model_list:
+  - model_name: glm-5.2
+    litellm_params:
+      model: openai/glm-5.2
+      api_base: https://api-ap-southeast-1.modelarts-maas.com/openai/v1
+      api_key: os.environ/MODELARTS_API_KEY
+      rpm: 30
+      tpm: 100000
+
+litellm_settings:
+  num_retries: 5
+  retry_on_status_codes: [429, 500, 502, 503, 504]
+  request_timeout: 120
+  drop_params: true
+
+general_settings:
+  master_key: sk-litellm-local

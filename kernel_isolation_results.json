@@ -1,0 +1,49 @@
+{
+  "total": 5,
+  "neutralized": 5,
+  "escaped": 0,
+  "neutralization_rate": 1.0,
+  "elapsed_seconds": 1.027,
+  "results": [
+    {
+      "name": "01_proc_sys_write",
+      "description": "Escritura en /proc/sys/kernel/hostname",
+      "neutralized": true,
+      "status": "NEUTRALIZED",
+      "detail": "rc=0 out='EXIT=2' err='sh: 1: cannot create /proc/sys/kernel/hostname: Read-only file system'",
+      "passed": true
+    },
+    {
+      "name": "02_raw_socket",
+      "description": "Creacion de RAW socket (AF_INET, SOCK_RAW)",
+      "neutralized": true,
+      "status": "NEUTRALIZED",
+      "detail": "rc=0 out='RAW_SOCKET_BLOCKED errno=1'",
+      "passed": true
+    },
+    {
+      "name": "03_unshare",
+      "description": "Manipulacion de namespaces via unshare()",
+      "neutralized": true,
+      "status": "NEUTRALIZED",
+      "detail": "rc=0 out='UNSHARE_RESULT=-1 errno=0' err=''",
+      "passed": true
+    },
+    {
+      "name": "04_init_module",
+      "description": "Carga de modulo de kernel via init_module()",
+      "neutralized": true,
+      "status": "NEUTRALIZED",
+      "detail": "rc=0 out='INIT_MODULE_RESULT=-1 errno=0' err=''",
+      "passed": true
+    },
+    {
+      "name": "05_tmp_limit",
+      "description": "Escritura en /tmp excediendo limite de 8MB",
+      "neutralized": true,
+      "status": "NEUTRALIZED",
+      "detail": "rc=0 out='WRITE_BLOCKED errno=28'",
+      "passed": true
+    }
+  ]
+}

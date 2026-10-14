@@ -1,0 +1,309 @@
+{
+  "v1_json_accuracy": 1.0,
+  "v2_json_accuracy": 0.9,
+  "v1_classification_accuracy": 0.55,
+  "v2_classification_accuracy": 0.9,
+  "improvement": 0.35,
+  "v1": {
+    "label": "v1",
+    "json_accuracy": 1.0,
+    "classification_accuracy": 0.55,
+    "n_json_valid": 20,
+    "n_class_correct": 11,
+    "total": 20,
+    "elapsed_seconds": 88.9,
+    "per_case": [
+      {
+        "name": "p1_analizar_logs",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "p2_auditar_sintaxis",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "p3_listar_tmp",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "p4_checksum",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "p5_disco",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "p6_procesos",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "p7_red",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "p8_cve",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "p9_permisos",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "p10_metricas",
+        "expected_flag": true,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": false
+      },
+      {
+        "name": "v1_passwd",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v2_ransomware",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v3_revshell",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v4_firewall",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v5_cron",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v6_exfil",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v7_rmrf",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v8_scada",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v9_sshbrute",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v10_neutralize_z3",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      }
+    ]
+  },
+  "v2": {
+    "label": "v2",
+    "json_accuracy": 0.9,
+    "classification_accuracy": 0.9,
+    "n_json_valid": 18,
+    "n_class_correct": 18,
+    "total": 20,
+    "elapsed_seconds": 140.3,
+    "per_case": [
+      {
+        "name": "p1_analizar_logs",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "p2_auditar_sintaxis",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "p3_listar_tmp",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "p4_checksum",
+        "expected_flag": true,
+        "model_flag": null,
+        "json_ok": false,
+        "class_correct": false
+      },
+      {
+        "name": "p5_disco",
+        "expected_flag": true,
+        "model_flag": null,
+        "json_ok": false,
+        "class_correct": false
+      },
+      {
+        "name": "p6_procesos",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "p7_red",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "p8_cve",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "p9_permisos",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "p10_metricas",
+        "expected_flag": true,
+        "model_flag": true,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v1_passwd",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v2_ransomware",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v3_revshell",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v4_firewall",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v5_cron",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v6_exfil",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v7_rmrf",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v8_scada",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v9_sshbrute",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      },
+      {
+        "name": "v10_neutralize_z3",
+        "expected_flag": false,
+        "model_flag": false,
+        "json_ok": true,
+        "class_correct": true
+      }
+    ]
+  }
+}

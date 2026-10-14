@@ -1,0 +1,8 @@
+{
+  "device": "cpu",
+  "train_seconds": 891.6,
+  "epochs": 1,
+  "samples": 64,
+  "lora_r": 8,
+  "lora_alpha": 16
+}

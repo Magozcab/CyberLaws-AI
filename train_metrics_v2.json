@@ -1,0 +1,71 @@
+{
+  "device": "cuda",
+  "train_seconds": 556.0,
+  "epochs": 3,
+  "samples": 500,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "per_device_batch": 4,
+  "grad_accum": 4,
+  "max_length": 768,
+  "train_loss": 0.37205627902100485,
+  "mean_token_accuracy": 0.9967019359270731,
+  "entropy": 0.018989887265931992,
+  "loss_history": [
+    {
+      "step": 10,
+      "loss": 2.4940345764160154,
+      "epoch": 0.32
+    },
+    {
+      "step": 20,
+      "loss": 0.722592830657959,
+      "epoch": 0.64
+    },
+    {
+      "step": 30,
+      "loss": 0.1973421573638916,
+      "epoch": 0.96
+    },
+    {
+      "step": 40,
+      "loss": 0.07609379291534424,
+      "epoch": 1.256
+    },
+    {
+      "step": 50,
+      "loss": 0.02702386975288391,
+      "epoch": 1.576
+    },
+    {
+      "step": 60,
+      "loss": 0.014774684607982636,
+      "epoch": 1.896
+    },
+    {
+      "step": 70,
+      "loss": 0.011494266241788864,
+      "epoch": 2.192
+    },
+    {
+      "step": 80,
+      "loss": 0.011584044992923736,
+      "epoch": 2.512
+    },
+    {
+      "step": 90,
+      "loss": 0.0106056809425354,
+      "epoch": 2.832
+    }
+  ]
+}
